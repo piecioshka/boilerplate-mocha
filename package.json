@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "name": "test-mocha",
+    "description": "Testing project with Mocha couple strategies",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "rm -rf dist/ coverage/",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "test": "npm run test:unit",
+        "test:unit": "mocha --recursive",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "better-assert": "^1.0.2",
+        "expect.js": "^0.3.1",
+        "mocha": "^5.1.1",
+        "nyc": "^11.8.0",
+        "should": "^13.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-mocha.git"
+    }
+}

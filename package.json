@@ -12,13 +12,12 @@
     "scripts": {
         "clear": "rm -rf dist/ coverage/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run test:unit",
-        "test:unit": "mocha --recursive",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+        "test": "mocha"
     },
     "dependencies": {},
     "devDependencies": {
         "better-assert": "^1.0.2",
+        "chai": "^4.2.0",
         "expect.js": "^0.3.1",
         "mocha": "^5.1.1",
         "nyc": "^11.8.0",

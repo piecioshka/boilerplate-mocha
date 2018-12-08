@@ -11,6 +11,11 @@ describe('General specs', () => {
             assert.equal(true, 1);
         });
 
+        it('lib: chai', () => {
+            const { expect } = require('chai');
+            expect(5).to.be.equal(5);
+        });
+
         it('lib: should', () => {
             const should = require('should');
             should(5).be.exactly(5);

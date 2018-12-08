@@ -1,16 +1,17 @@
-# test-mocha 
+# test-mocha
 
-> :ledger: Testing project with Mocha couple strategies
+:ledger: Testing project with Mocha couple strategies
 
-## What am I use?
+## What I used?
 
-- Mocha (of course) as test library
-- For assertions:
-    - Native `console.assert`
-    - Native `assert`
-    - Library: [`should`](http://npmjs.com/package/should)
-    - Library: [`expect.js`](http://npmjs.com/package/expect.js)
-    - Library: [`better-assert`](http://npmjs.com/package/better-assert)
+* **Mocha** is as test runner library.
+* As assertion function I was used:
+    + Native `console.assert`
+    + Native `assert`
+    + Library: [`chai`](http://npmjs.com/package/chai)
+    + Library: [`should`](http://npmjs.com/package/should)
+    + Library: [`expect.js`](http://npmjs.com/package/expect.js)
+    + Library: [`better-assert`](http://npmjs.com/package/better-assert)
 
 ## License
 

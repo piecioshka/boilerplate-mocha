@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "test-mocha",
+    "name": "boilerplate-mocha",
     "description": "Testing project with Mocha couple strategies",
     "version": "1.0.0",
     "license": "MIT",
@@ -25,6 +25,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/test-mocha.git"
+        "url": "git@github.com:piecioshka/boilerplate-mocha.git"
     }
 }

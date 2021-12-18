@@ -1,4 +1,4 @@
-# test-mocha
+# boilerplate-mocha
 
 :ledger: Testing project with Mocha couple strategies
 

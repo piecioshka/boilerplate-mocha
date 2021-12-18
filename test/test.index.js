@@ -1,5 +1,3 @@
-'use strict';
-
 describe('General specs', () => {
     describe('should compare the same values', () => {
         it('native: console.assert', () => {

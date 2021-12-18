@@ -14,14 +14,13 @@
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "test": "mocha"
     },
-    "dependencies": {},
     "devDependencies": {
         "better-assert": "^1.0.2",
-        "chai": "^4.2.0",
+        "chai": "^4.3.4",
         "expect.js": "^0.3.1",
-        "mocha": "^5.1.1",
-        "nyc": "^11.8.0",
-        "should": "^13.2.1"
+        "mocha": "^9.1.3",
+        "nyc": "^15.1.0",
+        "should": "^13.2.3"
     },
     "repository": {
         "type": "git",

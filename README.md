@@ -1,6 +1,6 @@
 # boilerplate-mocha
 
-🍴 Starter with Mocha and other assertion libraries
+🍴 Starter with Mocha & other assertion libraries
 
 * `console.assert`
 * `assert`
